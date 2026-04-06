@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\WebApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Contact.cs",
               "RelativeToolTip": "Models\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T11:04:11.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Contacts\\Index.cshtml",
@@ -67,33 +67,32 @@
               "RelativeToolTip": "Views\\Contacts\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-04T16:05:39.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T16:05:39.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "wwwroot\\css\\site.css*",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-04T15:51:30.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T15:51:30.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "Controllers\\ContactsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T16:04:06.707Z"
+              "WhenOpened": "2026-04-04T16:04:06.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
