@@ -18,11 +18,11 @@ if (!app.Environment.IsDevelopment())
 }
 
 
-builder.Services.AddDbContext<DB>(options =>
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString("DefaultConnection")
+//builder.Services.AddDbContext<DB>(options =>
+//    options.UseNpgsql(
+//        builder.Configuration.GetConnectionString("DefaultConnection")
 
-    ));
+//    )); 
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
