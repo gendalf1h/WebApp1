@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using WebApp1.Data;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -12,6 +16,13 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+
+builder.Services.AddDbContext<DB>(options =>
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+
+    ));
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
