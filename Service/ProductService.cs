@@ -1,4 +1,5 @@
-﻿using WebApp1.Repository;
+﻿using WebApp1.Models;
+using WebApp1.Repository;
 namespace WebApp1.Service
 {
     public class ProductService
@@ -10,7 +11,15 @@ namespace WebApp1.Service
             _repo = repo;
         }
 
-        // метод для получение конкретных данных?
+        public async Task<List<Product>> GetAllAsync()
+        {
+            return await _repo.GetAllAsync();
+        }
+
+        public async Task<Product?> GetByIdAsync(int id)
+        {
+            return await _repo.GetByIdAsync(id);
+        }
 
     }
 }

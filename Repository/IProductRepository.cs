@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿//using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using WebApp1.Data;
 using WebApp1.Models;
 
@@ -7,6 +8,7 @@ namespace WebApp1.Repository
     public interface IProductRepository
     {
         Task<List<Product>> GetAllAsync();
+        Task<Product> GetByIdAsync(int id);
     }
 
     class ProductRepository : IProductRepository
@@ -22,5 +24,9 @@ namespace WebApp1.Repository
             return await _context.Products.ToListAsync();
         }
 
+        public async Task<Product?> GetByIdAsync(int id)
+        {
+            return await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+        }
     }
 }

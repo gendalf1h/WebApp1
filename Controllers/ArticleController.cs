@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using WebApp1.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebApp1.Service;
 
 namespace WebApp1.Controllers
