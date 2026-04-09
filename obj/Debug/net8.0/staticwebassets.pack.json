@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\algoritms.png",
+      "PackagePath": "staticwebassets\\images\\algoritms.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\csharpimage.jpg",
+      "PackagePath": "staticwebassets\\images\\csharpimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\unity.jpg",
+      "PackagePath": "staticwebassets\\images\\unity.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

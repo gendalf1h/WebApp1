@@ -1,9 +1,39 @@
 ﻿@model ProductDetailsVm
 
-<h1>@Model.Title</h1>
+@* <h1>@Model.Title</h1>
 
 <img src="@Model.ImageUrl" width="300" />
 
 <p>@Model.Description</p>
 
 <h3>Цена: @Model.Price P</h3>
+
+<p class="price">@Model.Price рублей</p> *@
+
+<div class="product-details">
+
+    <div class="product-image">
+        <img src="@Model.ImageUrl" alt="@Model.Title" />
+    </div>
+
+    <div class="product-content">
+        <h1>@Model.Title</h1>
+
+        <p class="description">
+            @Model.Description
+        </p>
+
+        <div class="price-block">
+            <span class="price">@Model.Price ₽</span>
+        </div>
+
+        <button class="buy-btn">
+            Купить курс
+        </button>
+
+        <a asp-controller="Product" asp-action="Index" class="back-link">
+            ← Назад к курсам
+        </a>
+    </div>
+
+</div>

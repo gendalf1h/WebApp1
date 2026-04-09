@@ -90,3 +90,133 @@ main input[type="submit"]{
         display: block;
         margin: 5px 0; 
     }
+
+/* все что ниже для сетки курсов */
+/* Заголовок */
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Сетка */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Карточка */
+.product-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    /* Ховер эффект */
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    /* Картинка */
+    .product-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+/* Контент */
+.product-info {
+    padding: 15px;
+}
+
+    .product-info h3 {
+        font-size: 18px;
+        margin: 0;
+        color: #333;
+    }
+
+/* Убираем underline у ссылок */
+.product-card a {
+    text-decoration: none;
+}
+
+/*кнопка цена*/
+.price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2a7cff;
+}
+
+
+/* Общий контейнер */
+.product-details {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Картинка */
+.product-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+/* Контент */
+.product-content {
+    flex: 1;
+}
+
+/* Заголовок */
+.product-content h1 {
+    margin-bottom: 20px;
+}
+
+/* Описание */
+.description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Цена */
+.price-block {
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2a7cff;
+}
+
+/* Кнопка */
+.buy-btn {
+    background: #2a7cff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.buy-btn:hover {
+    background: #1d5ed6;
+}
+
+/* Назад */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #777;
+}

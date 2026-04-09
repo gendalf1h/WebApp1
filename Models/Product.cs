@@ -16,7 +16,7 @@ namespace WebApp1.Models
         [Column("image_url")]
         public string ImageUrl { get; set; } // image_url
         [Column("price")]
-        public int Price { get; set; } // price
+        public decimal Price { get; set; } // price
     }
 
     public class ProductCardVm // для карточки продукта
@@ -39,6 +39,6 @@ namespace WebApp1.Models
         [Column("image_url")]
         public string ImageUrl { get; set; } // image_url
         [Column("price")]
-        public int Price { get; set; } // price
+        public decimal Price { get; set; } // price
     }
 }
