@@ -1,5 +1,4 @@
-﻿//using System.Data.Entity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using WebApp1.Data;
 using WebApp1.Models;
 namespace WebApp1.Repository
@@ -9,7 +8,7 @@ namespace WebApp1.Repository
         Task<List<Article>> GetAllAsync();
     }
 
-    public class ArticleRepository : IArticleRepository
+    public class ArticleRepository : IArticleRepository 
     {
         private readonly AppDbContext _context;
 
@@ -18,7 +17,7 @@ namespace WebApp1.Repository
             _context = context;
         }
 
-        public async Task<List<Article>> GetAllAsync()
+        public async Task<List<Article>> GetAllAsync() // получаем все данные из бд
         {
             return await _context.Articles.ToListAsync();
 

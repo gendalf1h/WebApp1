@@ -10,8 +10,7 @@ namespace WebApp1.Service
         {
             _repo = repo;
         }
-
-        public async Task<List<Article>> GetAllAsync()
+        public async Task<List<Article>> GetAllAsync() // какие данные нужны из бд (в этом случае все)
         {
             return await _repo.GetAllAsync();
         }

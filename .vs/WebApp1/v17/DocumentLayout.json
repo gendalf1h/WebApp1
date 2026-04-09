@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\WebApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\service\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:service\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\repository\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:repository\\iarticlerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\service\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:service\\articleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|solutionrelative:dbsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{101119E2-7B4D-4670-BE08-71AEB7F3617F}|WebApp1.csproj|c:\\users\\user\\source\\repos\\webapp1\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -70,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +86,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ProductService.cs",
+              "RelativeToolTip": "Service\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:09:11.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticleService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ArticleService.cs",
+              "RelativeDocumentMoniker": "Service\\ArticleService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ArticleService.cs",
+              "RelativeToolTip": "Service\\ArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T07:59:13.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:59:33.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IArticleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IArticleRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IArticleRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IArticleRepository.cs",
+              "RelativeToolTip": "Repository\\IArticleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T08:02:25.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T07:34:07.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:48:05.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Article.cs",
               "RelativeDocumentMoniker": "Models\\Article.cs",
@@ -91,19 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\dbsettings.json",
-              "RelativeDocumentMoniker": "dbsettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\dbsettings.json",
-              "RelativeToolTip": "dbsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T08:39:13.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -115,43 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IArticleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IArticleRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IArticleRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Repository\\IArticleRepository.cs",
-              "RelativeToolTip": "Repository\\IArticleRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T08:02:25.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArticleService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ArticleService.cs",
-              "RelativeDocumentMoniker": "Service\\ArticleService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Service\\ArticleService.cs",
-              "RelativeToolTip": "Service\\ArticleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T07:59:13.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\WebApp1\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T07:34:07.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -163,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Views\\Article\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Article\\Index.cshtml",
@@ -175,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ArticleController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Controllers\\ArticleController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArticleController.cs",
@@ -187,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Models\\Contact.cs",
@@ -199,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Views\\Article\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Article\\Details.cshtml",
@@ -211,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "WebApp1.csproj",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\WebApp1.csproj",
               "RelativeDocumentMoniker": "WebApp1.csproj",
@@ -223,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
@@ -235,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -247,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\WebApp1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
