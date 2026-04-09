@@ -32,6 +32,11 @@ builder.Services.AddScoped<ArticleService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ProductService>();
 
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<AuthService>();
+
+
+
 var app = builder.Build();
 
 

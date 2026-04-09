@@ -1,0 +1,13 @@
+﻿<h2>Регистрация</h2>
+
+<form method="post">
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="password" name="password" placeholder="Пароль" required />
+
+    <button type="submit">Зарегистрироваться</button>
+</form>
+
+ViewBag.Error != null
+{
+<p style="color:red">@ViewBag.Error</p>
+}

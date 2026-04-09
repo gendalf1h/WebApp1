@@ -13,12 +13,32 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\algoritms.png",
-      "PackagePath": "staticwebassets\\images\\algoritms.png"
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\EFC.jpg",
+      "PackagePath": "staticwebassets\\images\\EFC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\algoritms.jpg",
+      "PackagePath": "staticwebassets\\images\\algoritms.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\asp.jpg",
+      "PackagePath": "staticwebassets\\images\\asp.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\csharpimage.jpg",
       "PackagePath": "staticwebassets\\images\\csharpimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\front.jpg",
+      "PackagePath": "staticwebassets\\images\\front.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\mvc.jpg",
+      "PackagePath": "staticwebassets\\images\\mvc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\post.jpg",
+      "PackagePath": "staticwebassets\\images\\post.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\thumbnail.jpg",
