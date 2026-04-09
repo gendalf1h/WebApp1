@@ -1,28 +1,53 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApp1.Models;
+using WebApp1.Service;
 
 namespace WebApp1.Controllers
 {
     public class ArticleController : Controller
     {
-        // GET: ArticleController
-        public ActionResult Index()
+        private readonly ArticleService _service;
+        public ArticleController(ArticleService service)
         {
-            var articles = new List<Article>
-            {
-                new Article
-                {
-                    Id = 1,
-                    Title = "Первая статья",
-                    Content = "Текст статьи",
-                    ImageUrl = "/images/article1.jpg",
-                    CreateAt = DateTime.Now
-                }
-            };
+            _service = service;
+        }
 
+        public async Task<IActionResult> Index()
+        {
+            var articles = await _service.GetAllAsync();
             return View(articles);
         }
+
+        // GET: ArticleController
+        //public ActionResult Index()
+        //{
+        //    var articles = new List<Article>
+        //    {
+        //        new Article
+        //        {
+        //            Id = 1,
+        //            Title = "Первая статья",
+        //            Content = "Текст статьи",
+        //            ImageUrl = "/images/article1.jpg",
+        //            CreateAt = DateTime.Now
+        //        },
+
+        //        new Article
+        //        {
+        //            Id = 1,
+        //            Title = "Вторая статья",
+        //            Content = "Текст статьи",
+        //            ImageUrl = "/images/article1.jpg",
+        //            CreateAt = DateTime.Now
+        //        }
+                
+        //    };
+
+        //    return View(articles);
+        //}
+
+
 
         //public IActionResult Index()
         //{

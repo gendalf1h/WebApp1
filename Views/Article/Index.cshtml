@@ -2,20 +2,11 @@
 
 <h1>It Статьи</h1>
 
-<div class="article">
-    @foreach (var article in Model)
-    {
-        <div class="article-card">
-            <img src="@article.ImageUrl" alt="@article.Title" />
-
-            <h2>@article.Title</h2>
-
-            <p>
-                @article.Content.Substring(0, Math.Min(100, article.Content.Length))...
-            </p>
-
-            <a href="/Article/Details/@article.Id">Читать дальше </a>
-
-            </div>
-    }
-</div>
+@foreach( var article in Model)
+{
+    <div>
+        <h2>@article.Title</h2>
+        <img src="@article.ImageUrl" width="200" />
+        <p>@article.Content</p>
+    </div>
+}
