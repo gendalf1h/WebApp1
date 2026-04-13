@@ -6,6 +6,7 @@ namespace WebApp1.Repository
     public interface IArticleRepository 
     {
         Task<List<Article>> GetAllAsync();
+        Task<Article?> GetByIdAsync(int id); 
     }
 
     public class ArticleRepository : IArticleRepository 
@@ -20,7 +21,11 @@ namespace WebApp1.Repository
         public async Task<List<Article>> GetAllAsync() // получаем все данные из бд
         {
             return await _context.Articles.ToListAsync();
+        }
 
+        public async Task<Article?> GetByIdAsync(int id)
+        {
+            return await _context.Articles.FirstOrDefaultAsync(p => p.Id == id);
         }
 
     }

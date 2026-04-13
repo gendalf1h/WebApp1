@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApp1.Service;
 
+
 namespace WebApp1.Controllers
 {
     public class ArticleController : Controller
@@ -17,45 +18,21 @@ namespace WebApp1.Controllers
             return View(articles);
         }
 
-        // GET: ArticleController
-        //public ActionResult Index()
-        //{
-        //    var articles = new List<Article>
-        //    {
-        //        new Article
-        //        {
-        //            Id = 1,
-        //            Title = "Первая статья",
-        //            Content = "Текст статьи",
-        //            ImageUrl = "/images/article1.jpg",
-        //            CreateAt = DateTime.Now
-        //        },
-
-        //        new Article
-        //        {
-        //            Id = 1,
-        //            Title = "Вторая статья",
-        //            Content = "Текст статьи",
-        //            ImageUrl = "/images/article1.jpg",
-        //            CreateAt = DateTime.Now
-        //        }
-                
-        //    };
-
-        //    return View(articles);
-        //}
-
-
-
         //public IActionResult Index()
         //{
         //    return View();
         //}
 
         // GET: ArticleController/Details/5
-        public ActionResult Details(int id)
+
+        public async Task<IActionResult> Details(int id) // 
         {
-            return View();
+            var article = await _service.GetByIdAsync(id); //
+
+            if (article == null)
+                return NotFound("Статья не найдена");
+
+            return View(article);
         }
 
         // GET: ArticleController/Create

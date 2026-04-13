@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿//using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using WebApp1.Data;
 using WebApp1.Models;
 

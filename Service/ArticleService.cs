@@ -14,5 +14,16 @@ namespace WebApp1.Service
         {
             return await _repo.GetAllAsync();
         }
+
+        public async Task<Article?> GetByIdAsync(int id)
+        {
+            return await _repo.GetByIdAsync(id);
+
+        }
+
+        //public async Task<Article?> GetByIdAsync(int id)
+        //{
+        //    return await _repo.GetByIdAsync(id);
+        //}
     }
 }

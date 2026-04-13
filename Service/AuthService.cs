@@ -44,5 +44,24 @@ namespace WebApp1.Service
             return Convert.ToBase64String(hash);
         }
 
+        public async Task<User?> Login(string email, string password)
+        {
+            var user = await _repo.GetByEmailAsync(email);
+
+            if(user == null) 
+            {
+                return null;
+            }
+
+            var hash = Hash(password);
+
+            if (user.PasswordHash != hash)
+            {
+                return null;
+            }
+            return user;
+
+        }
+
     }
 }

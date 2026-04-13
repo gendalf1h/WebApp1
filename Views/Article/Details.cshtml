@@ -1,8 +1,18 @@
 ﻿@model Article
 
-<h1>@Model.Title</h1>
+@* <h1>@Model.Title</h1>
 
 <img src="@Model.ImageUrl" alt="@Model.Title" />
 
-<p>@Model.Content</p>
+<p>@Model.Content</p> *@
 
+
+<div class="article-details">
+    <h1>@Model.Title</h1>
+
+    <img src="@Model.ImageUrl" alt="@Model.Title" class="details-image" />
+
+    <p class="article-full-text">@Model.Content</p>
+
+    <a asp-controller="Article" asp-action="Index" class="back-link">← Назад к статьям</a>
+</div>

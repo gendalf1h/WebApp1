@@ -1,12 +1,47 @@
 ﻿@model List<Article>
 
-<h1>It Статьи</h1>
+@* <h1>It Статьи</h1> *@
 
-@foreach( var article in Model)
+@* @foreach( var article in Model)
 {
     <div>
         <h2>@article.Title</h2>
         <img src="@article.ImageUrl" width="200" />
         <p>@article.Content</p>
     </div>
-}
+} *@
+
+
+@* <h1 class="page-title">IT Статьи</h1>
+
+<div class="articles-container">
+    @foreach(var article in Model)
+    {
+    <div class="article-card">
+        <h2>@article.Title</h2>
+        <img src="@article.ImageUrl" />
+        <p>@article.Content.Substring(0,50)...</p>
+    </div>
+    }
+</div> *@
+
+
+
+<h1 class="page-title">IT Статьи</h1>
+
+<div class="articles-container">
+    @foreach(var article in Model)
+    {
+        <div class="article-card">
+            <a asp-controller="Article" asp-action="Details" asp-route-id="@article.Id" class="article-link">
+                <h2>@article.Title</h2>
+                <img src="@article.ImageUrl" alt="@article.Title" />
+                <p>
+                    @(article.Content.Length > 150 
+                        ? article.Content.Substring(0, 50) + "..." 
+                        : article.Content)
+                </p>
+            </a>
+        </div>
+    }
+</div>
