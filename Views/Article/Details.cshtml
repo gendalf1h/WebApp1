@@ -1,5 +1,6 @@
 ﻿@model Article
 
+
 @* <h1>@Model.Title</h1>
 
 <img src="@Model.ImageUrl" alt="@Model.Title" />
@@ -7,7 +8,7 @@
 <p>@Model.Content</p> *@
 
 
-<div class="article-details">
+@* <div class="article-details">
     <h1>@Model.Title</h1>
 
     <img src="@Model.ImageUrl" alt="@Model.Title" class="details-image" />
@@ -15,4 +16,32 @@
     <p class="article-full-text">@Model.Content</p>
 
     <a asp-controller="Article" asp-action="Index" class="back-link">← Назад к статьям</a>
+</div> *@
+
+
+
+<div class="article-page">
+
+    <div class="container">
+
+        <article class="article">
+
+            <h1 class="article-title">@Model.Title</h1>
+
+            <div class="article-meta">
+                <span>Дата: @DateTime.Now.ToShortDateString()</span>
+            </div>
+
+            <div class="article-image">
+                <img src="@Model.ImageUrl" alt="@Model.Title" />
+            </div>
+
+            <div class="article-body">
+                @Html.Raw(Model.Content.Replace("\n", "<br />"))
+            </div>
+
+        </article>
+
+    </div>
+
 </div>

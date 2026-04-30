@@ -1,5 +1,12 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Главная страница сайта";
+}
+
+<h1>Главная страница сайта</h1>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Вход осуществлен как @User.Identity.Name</p>
 }
 
 <a asp-controller= "Article" asp-action="Index" class="btn btn-primary"> 
@@ -10,7 +17,7 @@
     Перейти к курсам
 </a>
 
-<a asp-controller="Auth" aps-action="Login" class="btn btn-primary">
+<a asp-controller="Auth" asp-action="Login" class="btn btn-primary">
     Войти
 </a>
 
@@ -18,7 +25,170 @@
 <a asp-controller="Auth" asp-action="Register" class="btn btn-success">
     Регистрация
 </a>
+ *@
 
-<h1>Главная страница сайта</h1>
+
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<section class="hero">
+    <div class="container hero-wrapper">
+        <div class="hero-text">
+        <h1>Платформа обучения программированию</h1>
+
+        <p>
+            Изучай разработку, читай статьи и проходи курсы от практиков
+        </p>
+
+        <div class="hero-buttons">
+
+            <a asp-controller="Product" asp-action="Index" class="btn btn-primary">
+                 Смотреть курсы
+            </a>
+
+            <a asp-controller="Article" asp-action="Index" class="btn btn-dark">
+                 Читать статьи
+            </a>
+
+        </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="~/images/laptop.jpg" alt="hero" />
+        </div>
+
+    </div>
+
+</section>
+
+@* @if (User.Identity.IsAuthenticated)
+{
+    <section class="container">
+        <p> Добро пожаловать @User.Identity.Name</p>
+    </section>
+} *@
 
 
+<section class="learning-process">
+
+    <div class="container process-container">
+
+        <h2 class="process-title">Процесс обучения</h2>
+
+        <div class="process-content">
+
+            <div class="process-text">
+                <p>
+                    Весь процесс обучения проходит на нашей платформе.
+                    Через личный кабинет вы сможете управлять вашим курсом:
+                    просматривать лекции, скачивать материалы, выполнять тестовые
+                    и практические задания, отправлять ДЗ на проверку,
+                    консультироваться с наставником и выполнять ряд других действий
+                </p>
+            </div>
+
+            <div class="process-steps">
+
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <p>Смотрите лекции</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <p>Выполняете домашку</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <p>Отправляете на проверку</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">4</span>
+                    <p>Пишите наставнику</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">5</span>
+                    <p>Практика и тесты</p>
+                </div>
+
+                <div class="step">
+                    <span class="step-number">6</span>
+                    <p>Дипломный проект</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+@* =================================== *@
+
+
+<section class="info-section">
+
+    <div class="container">
+
+        <h2 class="info-title">
+            <span>&lt;</span>Краткая информация<span>/&gt;</span>
+        </h2>
+
+        <div class="info-list">
+
+            <div class="info-item">
+                <div class="info-icon"></div>
+                <div>
+                    <h3>Большая база знаний</h3>
+                    <p>
+                        На протяжении 2 месяцев вам предстоит пройти множество лекций.
+                        Общая продолжительность более 45 часов. Лекции разбиты
+                        от простых до сложных тем.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon"></div>
+                <div>
+                    <h3>Проведение лекций</h3>
+                    <p>
+                        Каждый модуль открывается по времени.
+                        У вас будет достаточно времени пройти уроки
+                        и выполнить домашние задания.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon"></div>
+                <div>
+                    <h3>Домашние задания</h3>
+                    <p>
+                        К каждой лекции есть задания для проверки.
+                        Также доступны тесты и практические задания.
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon"></div>
+                <div>
+                    <h3>Помощь и поддержка</h3>
+                    <p>
+                        Вы всегда можете задать вопрос наставнику
+                        и получить помощь по материалу.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

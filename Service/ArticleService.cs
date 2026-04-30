@@ -18,12 +18,32 @@ namespace WebApp1.Service
         public async Task<Article?> GetByIdAsync(int id)
         {
             return await _repo.GetByIdAsync(id);
-
         }
 
-        //public async Task<Article?> GetByIdAsync(int id)
-        //{
-        //    return await _repo.GetByIdAsync(id);
-        //}
+        public async Task CreateAsync(string title, string content, string email) // создать статью
+        {
+            var article = new Article
+            {
+                Title = title,
+                Content = content,
+                Status = ArticleStatus.Pending,
+                AuthorEmail = email,
+                ImageUrl = "/images/default.jpg"
+            };
+
+            await _repo.AddAsync(article);
+        }
+
+        public async Task<List<Article>> GetApprovedAsync() // получить все принятые статьи
+        {
+            return await _repo.GetApprovedAsync();
+        }
+
+        public async Task<List<Article>> GetPendingAsync()
+        {
+            return await _repo.GetPendingAsync();
+        }
+
+
     }
 }

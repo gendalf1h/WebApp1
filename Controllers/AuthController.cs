@@ -3,7 +3,6 @@ using WebApp1.Service;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using System.ComponentModel.DataAnnotations;
 
 
 namespace WebApp1.Controllers
@@ -37,7 +36,7 @@ namespace WebApp1.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
@@ -69,7 +68,17 @@ namespace WebApp1.Controllers
 
         public IActionResult Index()
         {
+            //return RedirectToAction("Login");
             return View();
         }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
+
+
+
     }
 }

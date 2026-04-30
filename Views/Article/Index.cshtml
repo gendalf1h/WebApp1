@@ -27,7 +27,8 @@
 
 
 
-<h1 class="page-title">IT Статьи</h1>
+@* <h1 class="page-title">IT Статьи</h1>
+
 
 <div class="articles-container">
     @foreach(var article in Model)
@@ -45,3 +46,118 @@
         </div>
     }
 </div>
+
+
+<h2>Добавить статью</h2>
+
+<form method="post">
+    <input name="title" placeholder="Название" required />
+    <textarea name="content" placeholder="Текст статьи"></textarea>
+
+    <button type="submit">Отправить на проверку</button>
+</form> *@
+
+
+
+
+<h1 class="page-title">IT Статьи</h1>
+
+<div class="articles-grid">
+
+    @foreach(var article in Model)
+    {
+        <div class="article-card">
+
+            <a asp-controller="Article"
+               asp-action="Details"
+               asp-route-id="@article.Id"
+               class="article-link">
+
+                <div class="article-image">
+                    <img src="@article.ImageUrl" alt="@article.Title" />
+                </div>
+
+                <div class="article-content">
+                    <h3>@article.Title</h3>
+
+                    <p>
+                        @(article.Content.Length > 120
+                            ? article.Content.Substring(0, 120) + "..."
+                            : article.Content)
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+    }
+
+</div>
+
+<!-- ДОБАВЛЕНИЕ -->
+@* <div class="article-form-wrapper">
+
+    <h2>Добавить статью</h2>
+
+    <form method="post" asp-action="Create" asp-controller="Article">
+
+        <input name="title" placeholder="Название статьи" required />
+
+        <textarea name="content" placeholder="Текст статьи"></textarea>
+
+        <button type="submit" class="btn btn-primary">
+            Отправить на проверку
+        </button>
+
+    </form>
+
+</div> *@
+
+@* <section class="add-article">
+
+    <div class="add-article-card">
+
+        <h2>Добавить статью</h2>
+
+        <form method="post" class="add-article-form">
+
+            <input name="title" placeholder="Название статьи" required />
+
+            <textarea name="content" placeholder="Текст статьи" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary">
+                Отправить на проверку
+            </button>
+
+        </form>
+
+    </div>
+
+</section> *@
+
+
+<section class="add-article-section">
+
+    <div class="container">
+
+        <div class="add-article-card">
+
+            <h2>Добавить статью</h2>
+
+            <form method="post" class="add-article-form">
+
+                <input name="title" placeholder="Название статьи" required />
+
+                <textarea name="content" placeholder="Текст статьи" rows="5" required></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Отправить на проверку
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>

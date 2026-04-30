@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v5o/4omaRGyQDcGvaKCZaJcB8VPZ9+dzUoCkgGaOlrI=",
+  "Hash": "Z7Z5yoHrieUogMQJzoUy4XhMUIHfTIqamyMSD8hS7lg=",
   "Source": "WebApp1",
   "BasePath": "_content/WebApp1",
   "Mode": "Default",
@@ -150,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\images\\csharpimage.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\default.jpg",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "images/default.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\EFC.jpg",
       "SourceId": "WebApp1",
       "SourceType": "Discovered",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\front.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\laptop.jpg",
+      "SourceId": "WebApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\",
+      "BasePath": "_content/WebApp1",
+      "RelativePath": "images/laptop.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\laptop.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\mvc.jpg",

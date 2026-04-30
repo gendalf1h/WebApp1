@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets\\images\\csharpimage.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\default.jpg",
+      "PackagePath": "staticwebassets\\images\\default.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\front.jpg",
       "PackagePath": "staticwebassets\\images\\front.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\laptop.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\WebApp1\\wwwroot\\images\\mvc.jpg",

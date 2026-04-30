@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApp1.Service;
 
 
@@ -14,8 +15,12 @@ namespace WebApp1.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var articles = await _service.GetAllAsync();
+            //var articles = await _service.GetAllAsync();
+            //return View(articles);
+
+            var articles = await _service.GetApprovedAsync();
             return View(articles);
+
         }
 
         //public IActionResult Index()
@@ -35,26 +40,27 @@ namespace WebApp1.Controllers
             return View(article);
         }
 
-        // GET: ArticleController/Create
-        public ActionResult Create()
+        [Authorize]
+        [HttpGet]
+        public IActionResult Create()
         {
             return View();
         }
 
         // POST: ArticleController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Create(IFormCollection collection)
+        //{
+        //    try
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
 
         // GET: ArticleController/Edit/5
         public ActionResult Edit(int id)
@@ -96,6 +102,23 @@ namespace WebApp1.Controllers
             {
                 return View();
             }
+        }
+
+        [Authorize]
+        public IActionResult Buy(int id)
+        {
+            return View();
+        }
+
+        [Authorize]
+        [HttpPost]
+        public async Task<IActionResult> Create(string title, string content)
+        {
+            var email = User.Identity.Name;
+
+            await _service.CreateAsync(title, content, email);
+
+            return RedirectToAction("Index");
         }
     }
 }

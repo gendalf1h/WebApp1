@@ -1,10 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@* <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
-
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 
 </head>
@@ -18,9 +17,141 @@
    </header>
 
    <main>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Auth" asp-action="Login">Войти</a>
+            <a asp-controller="Auth" asp-action="Register">Регистрация</a>
+        }
+        else
+        {
+            <span>👤 @User.Identity.Name</span>
+
+            <a asp-controller="Auth" asp-action="Logout">Выйти</a>
+        }
+
+
        @RenderBody()
    </main>
    <footer>Все права защищены </footer>
+
+</body>
+</html>
+ *@
+
+@*  ================последняя версия ниже============== *@
+@* <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+
+            <div class="logo">itProger</div>
+
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="Index">Главная</a>
+                <a asp-controller="Article" asp-action="Index">Статьи</a>
+                <a asp-controller="Product" asp-action="Index">Курсы</a>
+            </nav>
+
+            <div class="auth">
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Auth" asp-action="Login" class="btn">Войти</a>
+                    <a asp-controller="Auth" asp-action="Register" class="btn btn-primary">Регистрация</a>
+                }
+                else
+                {
+                    <span class="user">@User.Identity.Name</span>
+                    <a asp-controller="Auth" asp-action="Logout" class="btn">Выйти</a>
+                }
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            © 2026 itProger — Все права защищены
+        </div>
+    </footer>
+
+</body>
+</html> *@
+
+
+
+@* ===================ниже чат гпт----------------- *@
+
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container header-content">
+
+            <div class="logo">KgProger</div>
+
+            <nav class="nav">
+                <a asp-controller="Home" asp-action="Index">Главная</a>
+                <a asp-controller="Article" asp-action="Index">Статьи</a>
+                <a asp-controller="Product" asp-action="Index">Курсы</a>
+            </nav>
+
+            <div class="auth">
+                @if(!User.Identity.IsAuthenticated)
+                {
+                <a asp-controller="Auth" asp-action="Login" class="btn">Войти</a>
+                <a asp-controller="Auth" asp-action="Register" class="btn btn-primary">Регистрация</a>
+                }
+                else
+                {
+                <span class="user">@User.Identity.Name</span>
+
+                <form asp-controller="Auth" asp-action="Logout" method="post" style="display:inline;">
+                    <button type="submit" class="btn">Выйти</button>
+                </form>
+                }
+            </div>
+
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    @* class="container"> *@
+    <main>
+        @RenderBody()
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            © 2026 KgProger — Все права защищены
+        </div>
+    </footer>
 
 </body>
 </html>

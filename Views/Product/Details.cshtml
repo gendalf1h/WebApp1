@@ -27,9 +27,23 @@
             <span class="price">@Model.Price ₽</span>
         </div>
 
-        <button class="buy-btn">
+
+        @if(User.Identity.IsAuthenticated)
+        {
+            <a asp-action="Buy" asp-route-id="@Model.Title" class="btn btn-primary">
+                Купить курс
+            </a>
+        }
+        else
+        {
+            <a asp-controller="Auth" asp-action="Login" class="btn btn-primary">
+                Войти для покупки
+            </a>
+        }
+
+@*         <button class="buy-btn">
             Купить курс
-        </button>
+        </button> *@
 
         <a asp-controller="Product" asp-action="Index" class="back-link">
             ← Назад к курсам
