@@ -47,7 +47,8 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope()) // создаст таблицы на сервере 30.04.2026
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
+    //db.Database.Migrate();
+    db.Database.EnsureCreated();
 }
 
 app.UseAuthentication();
