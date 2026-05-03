@@ -12,8 +12,8 @@ namespace WebApp1.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Article>().ToTable("articles");
-            modelBuilder.Entity<Product>().ToTable("product");
+            modelBuilder.Entity<Article>();/*.ToTable("articles");*/
+            modelBuilder.Entity<Product>();/*.ToTable("product");*/
         }
     }
 
