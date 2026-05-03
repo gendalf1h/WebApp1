@@ -50,6 +50,7 @@ using (var scope = app.Services.CreateScope()) // создаст таблицы на сервере 30.
 
     Console.WriteLine("CAN CONNECT: " + db.Database.CanConnect());
     //db.Database.Migrate();
+    db.Database.EnsureDeleted();
     db.Database.EnsureCreated();
 }
 

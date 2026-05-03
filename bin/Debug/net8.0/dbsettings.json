@@ -1,9 +1,6 @@
-{
-  "ConnectionStrings": {
-    "DefaultConnections": "Host=localhost;Port=5432;Database=webproducts;Username=postgres;Password=1234"
-  }
-
-  //"ConnectionStrings": {
-  //  "DefaultConnections": "Host=dpg-d7pgbq6gvqtc73a8bqrg-a.virginia-postgres.render.com;Port=5432;Database=kgproger;Username=kguser;Password=3P7czJMkBn8yYgtmwhLrMcs7k2SISvHf"
-  //}
-}
+//{
+//  "ConnectionStrings": {
+//    "DefaultConnection": "Host=localhost;Port=5432;Database=webproducts;Username=postgres;Password=1234"
+//  }
+//}
+//// убрал s
